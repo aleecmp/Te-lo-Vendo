@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="icon" type="image/img" href="images/favicon.ico" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+
+  <body>
+    <header>
+      <h1 class="main-title">Te lo vendo</h1>
+      <nav class="main-nav">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo de Te lo vendo" />
+        </div>
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="main-nav-item">Productos</li>
+          <li class="main-nav-item">Sobre Nosotros</li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="contact.html">Contacto</a>
+          </li>
+        </ul>
+        <button class="hamburger-btn" onclick="toggleMenu()">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </nav>
+    </header>
+
+    <h2 class="contact-title">Contacto</h2>
+    <form action="" class="contact-form">
+      <label
+        >Nombre:
+        <input
+          type="text"
+          id="Name"
+          name="Name"
+          placeholder="Nombre Apellido"
+          required
+      /></label>
+      <br />
+      <label
+        >Correo:
+        <input
+          type="email"
+          id="Email"
+          name="Email"
+          placeholder="ejemplo@correo.com"
+          required
+      /></label>
+      <br />
+      <label for="Message">Mensaje: </label>
+      <textarea
+        name="Message"
+        id="Message"
+        cols="30"
+        rows="10"
+        required
+      ></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <footer class="main-footer">
+      <p>
+        Christopher Figueroa Barrera | Gonzalo Morales Araya | Fernanda
+        Fajre Caamaño | Alexis Campusano Mundaca | Copyright &copy; 2023
+      </p>
+    </footer>
+  </body>
+</html>
